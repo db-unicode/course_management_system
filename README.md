@@ -35,7 +35,7 @@ This project is a web-based Course Management System that allows users to manage
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/db-unicode/course_management_system.git
     ```
 2. Open `index.html` in your web browser.
 
