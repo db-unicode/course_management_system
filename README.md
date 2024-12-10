@@ -2,6 +2,9 @@
 
 This project is a web-based Course Management System that allows users to manage courses and course bundles. It includes features for adding, updating, and removing courses, as well as downloading and loading course structures in JSON format.
 
+## Link to Github Pages
+
+[Course Management System Preview](https://db-unicode.github.io/course_management_system/)
 
 
 ## Features
