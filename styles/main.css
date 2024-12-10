@@ -1,0 +1,34 @@
+/* Ajustar la lista de sugerencias para que aparezca justo debajo del input */
+.suggestions-list {
+    max-height: 200px; /* Limitar la altura */
+    overflow-y: auto; /* Habilitar scroll si hay muchas opciones */
+    border: 1px solid #ccc; /* Borde visible */
+    background-color: #fff; /* Fondo blanco */
+    position: absolute; /* Posicionar de forma absoluta */
+    top: 100%; /* Mover la lista justo debajo del input */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Asegurar que esté por encima de otros elementos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para diferenciar */
+    border-radius: 4px; /* Esquinas redondeadas */
+    padding: 0;
+    list-style: none; /* Quitar viñetas */
+}
+
+/* Mejoras generales */
+.form-control {
+    min-width: 100%; /* Ancho completo dentro de su contenedor */
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border {
+    border: 1px solid #dee2e6 !important;
+}
+
+.shadow-sm {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
